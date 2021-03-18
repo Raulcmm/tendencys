@@ -1,0 +1,19 @@
+.orders {
+	&__content {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 1rem;
+	}
+}
+
+.card-orders {
+	box-shadow: 1px 1px 8px 1px $shadows;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: $black;
+	&:hover {
+		transform: scale(1.1);
+	}
+}

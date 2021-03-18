@@ -1,0 +1,72 @@
+.btn {
+	border: none;
+	outline: none;
+	padding: 0.5rem 1rem;
+	border-radius: $small_border;
+	color: $white;
+	border: 1px solid transparent;
+	cursor: pointer;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	width: 100%;
+	&.fill {
+		&.green {
+			background-color: $green;
+			&:hover {
+				color: $green;
+				background-color: $white;
+				border: 1px solid $green;
+			}
+		}
+		&.red {
+			background-color: $red;
+			&:hover {
+				color: $red;
+				background-color: $white;
+				border: 1px solid $red;
+			}
+		}
+	}
+	&.outline {
+		&.green {
+			background-color: $white;
+			color: $green;
+			border: 1px solid $green;
+			&:hover {
+				color: $white;
+				background-color: $green;
+				border: 1px solid $white;
+			}
+		}
+		&.red {
+			background-color: $white;
+			color: $red;
+			border: 1px solid $red;
+			&:hover {
+				color: $white;
+				background-color: $red;
+				border: 1px solid $white;
+			}
+		}
+	}
+	&.line {
+		&.green {
+			background-color: $white;
+			color: $green;
+			&:hover {
+				color: $white;
+				background-color: $green;
+				border: 1px solid $white;
+			}
+		}
+		&.red {
+			background-color: $white;
+			color: $red;
+			&:hover {
+				color: $white;
+				background-color: $red;
+				border: 1px solid $white;
+			}
+		}
+	}
+}

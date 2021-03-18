@@ -1,0 +1,18 @@
+@import "./vars.scss";
+@import "./globals";
+
+@import "./components/_payment.scss";
+@import "./components/payment_item";
+@import "./components/form";
+@import "./components/orders";
+
+@import "./components/utils/loading";
+
+@import "pages/order_page";
+
+body {
+	font-family: "Lato", sans-serif;
+	max-width: $max_width;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
